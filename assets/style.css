@@ -1,0 +1,74 @@
+body {
+    font-family: 'Gilroy','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+/* #qa {
+    font-family: 'Gilroy','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 525;
+    color: #707070;
+    font-size: 30px;
+    } */
+
+.header {
+    background: #fff;
+    height: 90px;
+    width: 100% !important;
+}
+
+button {
+    background:#f67f54 !important;
+    color: #fff;
+    width: 100%;
+}
+
+button:hover {
+    background: #F66834 !important;
+}
+
+.dropdown {
+    position: relative;
+}
+.dropdown a:hover {
+    color:#fff;
+    background:#f67f54;
+}
+
+/* TRHC Fundamentals Button */
+#trhc_button {
+    background: #fff !important;
+    color:hsl(0, 0%, 44%);
+    border-style: none;
+}
+
+#quoteDisplay {
+    font-size: 35px ;
+    color: #707070;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    button {
+        background: #f67f54 !important;
+        color: #fff;
+        font-size: 18px;
+        padding-left: 40% !important;
+        padding-right: 40% !important;
+        margin-bottom: 2% !important;
+    }
+    #trhc_button {
+        background: #736F75 !important;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        margin-bottom: 2% !important;
+    }
+    #quoteDisplay {
+        font-size: 30px ;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    button {
+        font-size: 12px !important;
+    }
+}
